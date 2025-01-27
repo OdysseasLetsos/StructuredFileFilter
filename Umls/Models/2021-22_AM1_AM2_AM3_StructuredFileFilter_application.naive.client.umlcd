@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_PI92cEf0Eey4EKcRe9k_ow">
+  <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBmqMEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ4gwEf0Eey4EKcRe9k_ow" source="_QQ5H0Ef0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnngUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxUEf0Eey4EKcRe9k_ow" position="90.0,90.0"/>
+    <stereotypes xmi:id="_QQ4gwUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnng0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ4gwkf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ4gw0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnngkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ4gxEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ4gxUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ4gxkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="fileManager" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJGYUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv3ZwEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJGYkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ4gx0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ4gyEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ4gyUf0Eey4EKcRe9k_ow" source="_QQ5H0Ef0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnnhEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxUUf0Eey4EKcRe9k_ow" position="110.0,110.0"/>
+    <stereotypes xmi:id="_QQ4gykf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFoOkEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ4gy0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ4gzEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnnhUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ4gzUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ4gzkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ4gz0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="visualizationEngine" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJGY0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv4A0Eh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJtcEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ4g0Ef0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ4g0Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ69AEf0Eey4EKcRe9k_ow" sourceAnchor="352.0,325.0" targetAnchor="0.0,125.0" target="_QQ5H0Ef0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFpctEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxVkf0Eey4EKcRe9k_ow" position="210.0,210.0"/>
+    <stereotypes xmi:id="_QQ7kE0f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqDwEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ7kEEf0Eey4EKcRe9k_ow" text="">
+      <visualProperties xmi:id="_Qe3SYkf0Eey4EKcRe9k_ow" position="-30.0,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_QQ7kEUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFpctUf0Eey4EKcRe9k_ow"/>
+      <visualProperties xmi:id="_Qe3SYUf0Eey4EKcRe9k_ow" position="13.454545454545496,2.5"/>
+      <visibility xmi:id="_QQ9ZQUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ9ZQEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ7kEkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="applicationController" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFLioEf0Eey4EKcRe9k_ow"/>
+      <visualProperties xmi:id="_Qe35cEf0Eey4EKcRe9k_ow" position="-136.33333333333337,-46.5"/>
+      <stereotypes xmi:id="_Pv4n4Eh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFLioUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ9ZQ0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ9ZQkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_QQ7kFUf0Eey4EKcRe9k_ow" targetItem="_QRCSV0f0Eey4EKcRe9k_ow" sourceItem="_QQ7kFEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_QQ8LIUf0Eey4EKcRe9k_ow" targetItem="_QRCSXUf0Eey4EKcRe9k_ow" sourceItem="_QQ8LIEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_QQ8LI0f0Eey4EKcRe9k_ow" targetItem="_QRCSY0f0Eey4EKcRe9k_ow" sourceItem="_QQ8LIkf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_QQ8LJUf0Eey4EKcRe9k_ow" targetItem="_QRCSaUf0Eey4EKcRe9k_ow" sourceItem="_QQ8LJEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ-AUEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFoOkUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxUkf0Eey4EKcRe9k_ow" position="130.0,130.0"/>
+    <stereotypes xmi:id="_QQ-AUUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFo1oEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ-AUkf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ-AU0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFoOkkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ-AVEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ-AVUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ-AVkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJtcUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv4n4Uh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUgEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ-AV0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ-AWEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ-AWUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFo1oUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxU0f0Eey4EKcRe9k_ow" position="150.0,150.0"/>
+    <stereotypes xmi:id="_QQ-AWkf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFo1o0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ-AW0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ-AXEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFo1okf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ-AXUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ-AXkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ-AX0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="menuBar" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUgUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv5O8Eh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUgkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ-AYEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ-AYUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ-nYEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFo1pEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxVEf0Eey4EKcRe9k_ow" position="170.0,170.0"/>
+    <stereotypes xmi:id="_QQ-nYUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFpcsEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ-nYkf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ-nY0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFo1pUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ-nZEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ-nZUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ-nZkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="fileMenu" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUg0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv52AEh1Eeykh6jftAglzA" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUhEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pv52AUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFK7kEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ-nZ0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ-naEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ-naUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFpcsUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxVUf0Eey4EKcRe9k_ow" position="190.0,190.0"/>
+    <stereotypes xmi:id="_QQ-nakf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFpcs0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ-na0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ-nbEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFpcskf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ-nbUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ-nbkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ-nb0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="registerFileMenuItem" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFK7kUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv52Akh1Eeykh6jftAglzA" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFK7kkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pv52A0h1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFK7k0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ-ncEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ-ncUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ-nckf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqDwUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxV0f0Eey4EKcRe9k_ow" position="230.0,230.0"/>
+    <stereotypes xmi:id="_QQ-nc0f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqq0Ef0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ-ndEf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ-ndUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqDwkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ-ndkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ-nd0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ-neEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="lblNewLabel" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJsUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv6dEEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJskf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ-neUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ-nekf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ_OcEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqq0Uf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxWEf0Eey4EKcRe9k_ow" position="250.0,250.0"/>
+    <stereotypes xmi:id="_QQ_OcUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqq00f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ_Ockf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ_Oc0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqq0kf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ_OdEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ_OdUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ_Odkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="separator" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJs0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv6dEUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJtEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ_Od0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ_OeEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ_OeUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqq1Ef0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRHxWUf0Eey4EKcRe9k_ow" position="270.0,270.0"/>
+    <stereotypes xmi:id="_QQ_Oekf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFrR4Ef0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ_Oe0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ_OfEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFqq1Uf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ_OfUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ_Ofkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ_Of0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="registeredFilesList" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJtUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv6dEkh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMwwEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ_OgEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ_OgUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ_Ogkf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFrR4Uf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYYEf0Eey4EKcRe9k_ow" position="290.0,290.0"/>
+    <stereotypes xmi:id="_QQ_Og0f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFrR40f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ_OhEf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ_OhUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFrR4kf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ_Ohkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ_Oh0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ_OiEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="filesModel" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMwwUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv7EIEh1Eeykh6jftAglzA" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMwwkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pv7EIUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMww0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ_OiUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ_Oikf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ_1gEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFrR5Ef0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYYUf0Eey4EKcRe9k_ow" position="310.0,310.0"/>
+    <stereotypes xmi:id="_QQ_1gUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFr48Ef0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ_1gkf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ_1g0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFrR5Uf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ_1hEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ_1hUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ_1hkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="lblMetadata" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX0Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv7EIkh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX0Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ_1h0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ_1iEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QQ_1iUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFr48Uf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYYkf0Eey4EKcRe9k_ow" position="330.0,330.0"/>
+    <stereotypes xmi:id="_QQ_1ikf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFr480f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QQ_1i0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QQ_1jEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFr48kf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ_1jUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ_1jkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QQ_1j0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="panel_2" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX0kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv7rMEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX00f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ_1kEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ_1kUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRAckEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFr49Ef0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYY0f0Eey4EKcRe9k_ow" position="350.0,350.0"/>
+    <stereotypes xmi:id="_QRAckUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFsgAEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRAckkf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRAck0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFr49Uf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRAclEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRAclUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRAclkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="separator_1" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX1Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv7rMUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX1Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRAcl0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRAcmEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRAcmUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFsgAUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYZEf0Eey4EKcRe9k_ow" position="370.0,370.0"/>
+    <stereotypes xmi:id="_QRAcmkf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFsgA0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRAcm0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRAcnEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFsgAkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRAcnUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRAcnkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRAcn0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="lblNewLabel_1" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-4Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv7rMkh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-4Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRAcoEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRAcoUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRAcokf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFsgBEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYZUf0Eey4EKcRe9k_ow" position="390.0,390.0"/>
+    <stereotypes xmi:id="_QRAco0f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtHEEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRAcpEf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRAcpUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFsgBUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRAcpkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRAcp0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRAcqEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="lblNewLabel_2" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-4kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv8SQEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-40f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRAcqUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRAcqkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRBDoEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtHEUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYZkf0Eey4EKcRe9k_ow" position="410.0,410.0"/>
+    <stereotypes xmi:id="_QRBDoUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtHE0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRBDokf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRBDo0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtHEkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRBDpEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRBDpUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRBDpkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="aliasLabel" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-5Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv8SQUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-5Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRBDp0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRBDqEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRBDqUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtHFEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYZ0f0Eey4EKcRe9k_ow" position="430.0,430.0"/>
+    <stereotypes xmi:id="_QRBDqkf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtuIEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRBDq0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRBDrEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtHFUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRBDrUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRBDrkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRBDr0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="fileNameLabel" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-5kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv8SQkh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl8Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRBDsEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRBDsUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRBDskf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtuIUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYaEf0Eey4EKcRe9k_ow" position="450.0,450.0"/>
+    <stereotypes xmi:id="_QRBDs0f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtuI0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRBDtEf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRBDtUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtuIkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRBDtkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRBDt0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRBDuEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="pathLabel" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl8Uf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv85UEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl8kf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRBDuUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRBDukf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRBqsEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtuJEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYaUf0Eey4EKcRe9k_ow" position="470.0,470.0"/>
+    <stereotypes xmi:id="_QRBqsUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFuVMEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRBqskf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRBqs0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFtuJUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRBqtEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRBqtUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRBqtkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="columnsInfoTextArea" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl80f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv85UUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl9Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRBqt0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRBquEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRBquUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFuVMUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYakf0Eey4EKcRe9k_ow" position="490.0,490.0"/>
+    <stereotypes xmi:id="_QRBqukf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFu8QEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRBqu0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRBqvEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFuVMkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRBqvUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRBqvkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRBqv0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="lblNewLabel_3" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl9Uf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv85Ukh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFPNAEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRBqwEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRBqwUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRCRwEf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwKYUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYa0f0Eey4EKcRe9k_ow" position="510.0,510.0"/>
+    <stereotypes xmi:id="_QRCRwUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwKY0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRCRwkf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRCRw0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwKYkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCRxEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRCRxUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRCRxkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="filterMenu" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFgSwEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv9gYEh1Eeykh6jftAglzA" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFgSwUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pv9gYUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFgSwkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRCRx0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCRyEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRCRyUf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwKZEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYbEf0Eey4EKcRe9k_ow" position="530.0,530.0"/>
+    <stereotypes xmi:id="_QRCRykf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwxcEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRCRy0f0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRCRzEf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwKZUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCRzUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRCRzkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRCRz0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="metadataMenuItem" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFgSw0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv9gYkh1Eeykh6jftAglzA" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg50Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pv9gY0h1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg50Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRCR0Ef0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR0Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QRCR0kf0Eey4EKcRe9k_ow" source="_QRCR20f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwxcUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRIYbUf0Eey4EKcRe9k_ow" position="550.0,550.0"/>
+    <stereotypes xmi:id="_QRCR00f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFxYgEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QRCR1Ef0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_QRCR1Uf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwxckf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCR1kf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRCR10f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QRCR2Ef0Eey4EKcRe9k_ow" aggregationKind="NONE" name="createFilterMenuItem" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg50kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_Pv-HcEh1Eeykh6jftAglzA" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg500f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pv-HcUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg51Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRCR2Uf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR2kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ci854Ef1Eey4EKcRe9k_ow" source="_QQ5H0Ef0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_cge0sEf1Eey4EKcRe9k_ow"/>
+    <stereotypes xmi:id="_ci854Uf1Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_cge0skf1Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ci854kf1Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_ci8540f1Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_cge0sUf1Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_ci855Ef1Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_ci855Uf1Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ci855kf1Eey4EKcRe9k_ow" aggregationKind="NONE" name="engineFactory" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_cgc_gEf1Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_cjCZcEf1Eey4EKcRe9k_ow" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pv-Hckh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_cgc_gUf1Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_ci8550f1Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_ci856Ef1Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TLHYoEh1Eeykh6jftAglzA" source="_QQ5H0Ef0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_TKyogEh1Eeykh6jftAglzA"/>
+    <stereotypes xmi:id="_TLHYoUh1Eeykh6jftAglzA" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_TKzPkEh1Eeykh6jftAglzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TLHYokh1Eeykh6jftAglzA" text=""/>
+    <sourceRole xmi:id="_TLHYo0h1Eeykh6jftAglzA" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_TKyogUh1Eeykh6jftAglzA"/>
+      <visibility xmi:id="_TLHYpEh1Eeykh6jftAglzA" label="+"/>
+      <cardinality xmi:id="_TLHYpUh1Eeykh6jftAglzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TLHYpkh1Eeykh6jftAglzA" aggregationKind="NONE" name="eng" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_TKwMQEh1Eeykh6jftAglzA"/>
+      <stereotypes xmi:id="_TLWpMEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_TLHYp0h1Eeykh6jftAglzA" label="-"/>
+      <cardinality xmi:id="_TLHYqEh1Eeykh6jftAglzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_QQ7kFEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_QQ7kFUf0Eey4EKcRe9k_ow" text="Launch the application." item="_QRCSV0f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg51Uf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_QQ8LIEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_QQ8LIUf0Eey4EKcRe9k_ow" text="Create the application." item="_QRCSXUf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg51kf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_QQ8LIkf0Eey4EKcRe9k_ow" sourceConnectionVisual="_QQ8LI0f0Eey4EKcRe9k_ow" text="Initialize the contents of the frame." item="_QRCSY0f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg510f0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_QQ8LJEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_QQ8LJUf0Eey4EKcRe9k_ow" text="@return a String with the delimeter that the user had selected from the dialog box" item="_QRCSaUf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg52Ef0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QRCR20f0Eey4EKcRe9k_ow" name="NaiveApplicationMainUI" associationsOut="_QQ69AEf0Eey4EKcRe9k_ow _QQ-AUEf0Eey4EKcRe9k_ow _QQ-AWUf0Eey4EKcRe9k_ow _QQ-nYEf0Eey4EKcRe9k_ow _QQ-naUf0Eey4EKcRe9k_ow _QQ-nckf0Eey4EKcRe9k_ow _QQ_OcEf0Eey4EKcRe9k_ow _QQ_OeUf0Eey4EKcRe9k_ow _QQ_Ogkf0Eey4EKcRe9k_ow _QQ_1gEf0Eey4EKcRe9k_ow _QQ_1iUf0Eey4EKcRe9k_ow _QRAckEf0Eey4EKcRe9k_ow _QRAcmUf0Eey4EKcRe9k_ow _QRAcokf0Eey4EKcRe9k_ow _QRBDoEf0Eey4EKcRe9k_ow _QRBDqUf0Eey4EKcRe9k_ow _QRBDskf0Eey4EKcRe9k_ow _QRBqsEf0Eey4EKcRe9k_ow _QRBquUf0Eey4EKcRe9k_ow _QRCRwEf0Eey4EKcRe9k_ow _QRCRyUf0Eey4EKcRe9k_ow _QRCR0kf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCuEgEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QRCR3Ef0Eey4EKcRe9k_ow" position="390.0,85.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QRCR3Uf0Eey4EKcRe9k_ow" label="+"/>
+    <attributes xmi:id="_QRCR3kf0Eey4EKcRe9k_ow" name="frame">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJtcUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwKUsUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwK7wEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pwcokkh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCR4Ef0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR4Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCR4kf0Eey4EKcRe9k_ow" name="JFrame">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PESx0kf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCR40f0Eey4EKcRe9k_ow" name="menuBar">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUgUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwLi0Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwLi0Uh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwdPoEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCR5Uf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR5kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCR50f0Eey4EKcRe9k_ow" name="JMenuBar">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEaGk0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCR6Ef0Eey4EKcRe9k_ow" name="fileMenu">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFKUg0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwMJ4Eh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwMJ4Uh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwMJ4kh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwMw8Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pwd2sEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_Pwd2sUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCR60f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR7Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCR7Uf0Eey4EKcRe9k_ow" name="JMenu">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEaGkUf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCR7kf0Eey4EKcRe9k_ow" name="registerFileMenuItem">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFK7kUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwMw8Uh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwNYAEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwNYAUh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwNYAkh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pwd2skh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwedwEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCR8Uf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR8kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCR80f0Eey4EKcRe9k_ow" name="JMenuItem">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEatoUf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCR9Ef0Eey4EKcRe9k_ow" name="applicationController">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFLioEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwJtoUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwKUsEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwedwUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCR9kf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR90f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCR-Ef0Eey4EKcRe9k_ow" name="NaiveApplicationController">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCpzEEf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCR-Uf0Eey4EKcRe9k_ow" name="documentAlias" staticAttribute="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFLiokf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_QRCR-kf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJsEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QRCR-0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCR_Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCR_Uf0Eey4EKcRe9k_ow" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCR_kf0Eey4EKcRe9k_ow" name="lblNewLabel">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJsUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwN_EEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwN_EUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwfE0Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSAEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSAUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSAkf0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSA0f0Eey4EKcRe9k_ow" name="separator">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJs0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwOmIEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwOmIUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwfE0Uh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSBUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSBkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSB0f0Eey4EKcRe9k_ow" name="JSeparator">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEdJ4Uf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSCEf0Eey4EKcRe9k_ow" name="registeredFilesList">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMJtUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwPNMEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwPNMUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pwfr4Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSCkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSC0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSDEf0Eey4EKcRe9k_ow" name="JList">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEdJ5Uf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSDUf0Eey4EKcRe9k_ow" name="filesModel">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFMwwUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwP0QEh1Eeykh6jftAglzA" name="Generics"/>
+      <stereotypes xmi:id="_PwP0QUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwQbUEh1Eeykh6jftAglzA" name="Generics"/>
+      <stereotypes xmi:id="_PwQbUUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwgS8Eh1Eeykh6jftAglzA" name="Generics"/>
+      <stereotypes xmi:id="_PwgS8Uh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSEEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSEUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSEkf0Eey4EKcRe9k_ow" name="DefaultListModel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEci1Uf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSE0f0Eey4EKcRe9k_ow" name="lblMetadata">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX0Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwRCYEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwRCYUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwgS8kh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSFUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSFkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSF0f0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSGEf0Eey4EKcRe9k_ow" name="panel_2">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX0kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwRpcEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwRpcUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pwg6AEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSGkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSG0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSHEf0Eey4EKcRe9k_ow" name="JPanel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PESx1Ef0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSHUf0Eey4EKcRe9k_ow" name="separator_1">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFNX1Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwSQgEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwSQgUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwhhEEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSH0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSIEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSIUf0Eey4EKcRe9k_ow" name="JSeparator">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEdJ4Uf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSIkf0Eey4EKcRe9k_ow" name="lblNewLabel_1">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-4Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwS3kEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwTeoEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwhhEUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSJEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSJUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSJkf0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSJ0f0Eey4EKcRe9k_ow" name="lblNewLabel_2">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-4kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwTeoUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwUFsEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwhhEkh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSKUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSKkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSK0f0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSLEf0Eey4EKcRe9k_ow" name="aliasLabel">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-5Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwUFsUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwUswEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwiIIEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSLkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSL0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSMEf0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSMUf0Eey4EKcRe9k_ow" name="fileNameLabel">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFN-5kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwUswUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwVT0Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwiIIUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSM0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSNEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSNUf0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSNkf0Eey4EKcRe9k_ow" name="pathLabel">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl8Uf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwV64Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwV64Uh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwivMEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSOEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSOUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSOkf0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSO0f0Eey4EKcRe9k_ow" name="columnsInfoTextArea">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl80f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwWh8Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwWh8Uh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwivMUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSPUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSPkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSP0f0Eey4EKcRe9k_ow" name="JTextArea">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEeYAkf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSQEf0Eey4EKcRe9k_ow" name="lblNewLabel_3">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFOl9Uf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwXJAEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwXwEEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwjWQEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSQkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSQ0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSREf0Eey4EKcRe9k_ow" name="JLabel">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEZfg0f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSRUf0Eey4EKcRe9k_ow" name="filterMenu">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFgSwEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwXwEUh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwXwEkh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwYXIEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwYXIUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwjWQUh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwjWQkh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSSEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSSUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSSkf0Eey4EKcRe9k_ow" name="JMenu">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEaGkUf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSS0f0Eey4EKcRe9k_ow" name="metadataMenuItem">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFgSw0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwY-MEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwY-MUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwZlQEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwZlQUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pwj9UEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwkkYEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSTkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCST0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSUEf0Eey4EKcRe9k_ow" name="JMenuItem">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEatoUf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRCSUUf0Eey4EKcRe9k_ow" name="createFilterMenuItem">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFg50kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwaMUEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwaMUUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwazYEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwazYUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwlLcEh1Eeykh6jftAglzA" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_PwlLcUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QRCSVEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSVUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QRCSVkf0Eey4EKcRe9k_ow" name="JMenuItem">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEatoUf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QRCSV0f0Eey4EKcRe9k_ow" comments="_QQ7kFEf0Eey4EKcRe9k_ow" targetConnectionVisual="_QQ7kFUf0Eey4EKcRe9k_ow" name="main" staticOperation="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCvSoEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCSWEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRCSWUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QRCSWkf0Eey4EKcRe9k_ow" name="args">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCvSoUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QRCSW0f0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_QRCSXEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QRCSXUf0Eey4EKcRe9k_ow" comments="_QQ8LIEf0Eey4EKcRe9k_ow" targetConnectionVisual="_QQ8LIUf0Eey4EKcRe9k_ow" name="NaiveApplicationMainUI">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCv5sEf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_QRCSXkf0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_QRCSX0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QRCSYEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QRCSYUf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCv5s0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QRCSYkf0Eey4EKcRe9k_ow" name="NaiveApplicationMainUI">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCuEgEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_QRCSY0f0Eey4EKcRe9k_ow" comments="_QQ8LIkf0Eey4EKcRe9k_ow" targetConnectionVisual="_QQ8LI0f0Eey4EKcRe9k_ow" name="initialize">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCv5tEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCSZEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSZUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_QRCSZkf0Eey4EKcRe9k_ow" name="setNextDocumentAlias">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCv5tUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCSZ0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSaEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_QRCSaUf0Eey4EKcRe9k_ow" comments="_QQ8LJEf0Eey4EKcRe9k_ow" targetConnectionVisual="_QQ8LJUf0Eey4EKcRe9k_ow" name="giveValidDelimeter">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCv5tkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QRCSakf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QRCSa0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QRCSbEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCwgwEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QRCSbUf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QQ5H0Ef0Eey4EKcRe9k_ow" name="NaiveApplicationController" associationsIn="_QQ69AEf0Eey4EKcRe9k_ow" associationsOut="_QQ4gwEf0Eey4EKcRe9k_ow _QQ4gyUf0Eey4EKcRe9k_ow _ci854Ef1Eey4EKcRe9k_ow _TLHYoEh1Eeykh6jftAglzA">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCpzEEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_QQ5H0Uf0Eey4EKcRe9k_ow" position="896.0,285.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QQ5H0kf0Eey4EKcRe9k_ow" label="+"/>
+    <attributes xmi:id="_QQ5H00f0Eey4EKcRe9k_ow" name="fileManager">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJGYUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwIfgEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwJGkEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwcBgUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QQ5H1Uf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ5H1kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QQ5H10f0Eey4EKcRe9k_ow" name="StructuredFileManagerInterface">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC7f5kf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QQ5H2Ef0Eey4EKcRe9k_ow" name="visualizationEngine">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJGY0f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwJGkUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwJtoEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwcokEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QQ5H2kf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ5H20f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_QQ5H3Ef0Eey4EKcRe9k_ow" name="VisualizationEngine">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCjFYEf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cggC0Ef1Eey4EKcRe9k_ow" name="engineFactory">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_cgc_gEf1Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PwbacEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwcBgEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PwcokUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_cggC0kf1Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_cggC00f1Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_cggC1Ef1Eey4EKcRe9k_ow" name="StructuredFileManagerFactory">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC640Ef0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TK1EwEh1Eeykh6jftAglzA" name="eng">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_TKwMQEh1Eeykh6jftAglzA"/>
+      <stereotypes xmi:id="_TK1EwUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_TKwMQUh1Eeykh6jftAglzA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK1Ewkh1Eeykh6jftAglzA" label="-"/>
+      <cardinality xmi:id="_TK1Ew0h1Eeykh6jftAglzA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK1ExEh1Eeykh6jftAglzA" name="VisualizationEngine">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCjFYEf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QQ5H3Uf0Eey4EKcRe9k_ow" name="NaiveApplicationController">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCqaIEf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_QQ5H3kf0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_QQ5H30f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5H4Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QQ5H4Uf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCqaI0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QQ5H4kf0Eey4EKcRe9k_ow" name="NaiveApplicationController">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCpzEEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_QQ5H40f0Eey4EKcRe9k_ow" name="registerFile">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCqaJEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ5H5Ef0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5H5Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QQ5H5kf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEzvMUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QQ5H50f0Eey4EKcRe9k_ow" name="File">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEV1IEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QQ5H6Ef0Eey4EKcRe9k_ow" name="pAlias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCqaJUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5H6Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5H6kf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5H60f0Eey4EKcRe9k_ow" name="pPath">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCrBMEf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5H7Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5H7Uf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5H7kf0Eey4EKcRe9k_ow" name="pSeparator">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCrBMUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5H70f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5H8Ef0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QQ5H8Uf0Eey4EKcRe9k_ow" name="getColumnsMetadataByAlias">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCroQEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_QQ5H8kf0Eey4EKcRe9k_ow" name="Array">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCsPUEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ5H80f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5H9Ef0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_QQ5H9Uf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCroQkf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QQ5H9kf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QQ5H90f0Eey4EKcRe9k_ow" name="pAlias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCroQUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5H-Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5H-Uf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QQ5H-kf0Eey4EKcRe9k_ow" name="executeFilterAndShowJTable">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE0WQEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_QQ5H-0f0Eey4EKcRe9k_ow" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE0WREf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_QQ5H_Ef0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5H_Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QQ5H_kf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE0WRUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QQ5H_0f0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QQ5IAEf0Eey4EKcRe9k_ow" name="alias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE0WQUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IAUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IAkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IA0f0Eey4EKcRe9k_ow" name="atomicFilters">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE0WQkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IBEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IBUf0Eey4EKcRe9k_ow" name="Map">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEXDQ0f0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IBkf0Eey4EKcRe9k_ow" name="outputFileName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE0WQ0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IB0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5ICEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QQ5ICUf0Eey4EKcRe9k_ow" name="saveToResultTextFile">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE09UUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ5ICkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5IC0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QQ5IDEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE09VEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_QQ5IDUf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QQ5IDkf0Eey4EKcRe9k_ow" name="outputFileName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE09Ukf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5ID0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IEEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IEUf0Eey4EKcRe9k_ow" name="result">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE09U0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IEkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IE0f0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QQ5IFEf0Eey4EKcRe9k_ow" name="showJTableViewer">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kYUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ5IFUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_QQ5IFkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QQ5IF0f0Eey4EKcRe9k_ow" name="result">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kYkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IGEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IGUf0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IGkf0Eey4EKcRe9k_ow" name="columnNames">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kY0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IG0f0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_QQ5IHEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QQ5IHUf0Eey4EKcRe9k_ow" name="showSingleSeriesBarChart">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kZkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ5IHkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5IH0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QQ5IIEf0Eey4EKcRe9k_ow" name="pAlias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kZ0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IIUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IIkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5II0f0Eey4EKcRe9k_ow" name="series">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kaEf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IJEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IJUf0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IJkf0Eey4EKcRe9k_ow" name="pXAxisName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kaUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IJ0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IKEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IKUf0Eey4EKcRe9k_ow" name="pYAxisName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kakf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IKkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IK0f0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5ILEf0Eey4EKcRe9k_ow" name="outputFileName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1ka0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5ILUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5ILkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QQ5IL0f0Eey4EKcRe9k_ow" name="showSingleSeriesLineChart">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE1kbUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_QQ5IMEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_QQ5IMUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QQ5IMkf0Eey4EKcRe9k_ow" name="pAlias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE2LcEf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IM0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5INEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5INUf0Eey4EKcRe9k_ow" name="series">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE2LcUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5INkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IN0f0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IOEf0Eey4EKcRe9k_ow" name="pXAxisName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE2Lckf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IOUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IOkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IO0f0Eey4EKcRe9k_ow" name="pYAxisName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE2Lc0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IPEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IPUf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QQ5IPkf0Eey4EKcRe9k_ow" name="outputFileName">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE2LdEf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_QQ5IP0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_QQ5IQEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

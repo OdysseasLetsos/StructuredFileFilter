@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_PJok0Ef0Eey4EKcRe9k_ow">
+  <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBsJwUf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RR7HAUf0Eey4EKcRe9k_ow" targetItem="_RR8VI0f0Eey4EKcRe9k_ow" sourceItem="_RR7HAEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RR7uEUf0Eey4EKcRe9k_ow" targetItem="_RR8VJkf0Eey4EKcRe9k_ow" sourceItem="_RR7uEEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RR7uE0f0Eey4EKcRe9k_ow" targetItem="_RR8VLEf0Eey4EKcRe9k_ow" sourceItem="_RR7uEkf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RR8VIEf0Eey4EKcRe9k_ow" targetItem="_RR8VMUf0Eey4EKcRe9k_ow" sourceItem="_RR7uFEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RR8VIkf0Eey4EKcRe9k_ow" targetItem="_RR8VNkf0Eey4EKcRe9k_ow" sourceItem="_RR8VIUf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RR9jQEf0Eey4EKcRe9k_ow" sourceAnchor="372.0,0.0" targetAnchor="154.0,154.0" dashed="true" superClass="_RR8VI0f0Eey4EKcRe9k_ow" subClass="_RR_YcEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEoJAUf0Eey4EKcRe9k_ow"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RR9jQUf0Eey4EKcRe9k_ow" source="_RR_YcEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFvjVEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_RSCbwEf0Eey4EKcRe9k_ow" position="90.0,90.0"/>
+    <stereotypes xmi:id="_RR-xY0f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFwKYEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RR-xYEf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_RR-xYUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFvjVUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_RR-xZUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR-xZEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RR-xYkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="file" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFUskEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_eEkOcEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFUskUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR-xZ0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_RR-xZkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RR7HAEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_RR7HAUf0Eey4EKcRe9k_ow" text="The MetadataManagerInterface represents a contract for the handling of the&#xD;&#xA;metadata information of a registered file&#xD;&#xA;&#xD;&#xA;Practically, any class implementing the MetadataManagerInterface can stand as&#xD;&#xA;a representative of a registered data file&#xD;&#xA;&#xD;&#xA;@author pvassil&#xD;&#xA; *" item="_RR8VI0f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH8kf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RR7uEEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_RR7uEUf0Eey4EKcRe9k_ow" text="Returns a mapping of the fields to their position in the structure of the&#xD;&#xA;&#x9; * record files&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return a Map with the String name of the column as key and an Integer with&#xD;&#xA;&#x9; *         the position of the column as value" item="_RR8VJkf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH80f0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RR7uEkf0Eey4EKcRe9k_ow" sourceConnectionVisual="_RR7uE0f0Eey4EKcRe9k_ow" text="Returns a File object representing the data file that the metadata manager&#xD;&#xA;&#x9; * handles&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return a File object representing the data file that the metadata manager&#xD;&#xA;&#x9; *         handles" item="_RR8VLEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH9Ef0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RR7uFEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_RR8VIEf0Eey4EKcRe9k_ow" text="Returns the separator of the file handled by the particular metadata manager&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return a String with column separator" item="_RR8VMUf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH9Uf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RR8VIUf0Eey4EKcRe9k_ow" sourceConnectionVisual="_RR8VIkf0Eey4EKcRe9k_ow" text="Returns the column names of the file handled by the particular metadata&#xD;&#xA;&#x9; * manager&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return an array of String with the column names" item="_RR8VNkf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH9kf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RR8VI0f0Eey4EKcRe9k_ow" comments="_RR7HAEf0Eey4EKcRe9k_ow" targetConnectionVisual="_RR7HAUf0Eey4EKcRe9k_ow" name="MetadataManagerInterface" subclassedBy="_RR9jQEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDBmgEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_RR8VJEf0Eey4EKcRe9k_ow" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RR8VJUf0Eey4EKcRe9k_ow" label="+"/>
+    <operations xmi:id="_RR8VJkf0Eey4EKcRe9k_ow" comments="_RR7uEEf0Eey4EKcRe9k_ow" targetConnectionVisual="_RR7uEUf0Eey4EKcRe9k_ow" abstractOperation="true" name="getFieldPositions">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDCNkEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR8VJ0f0Eey4EKcRe9k_ow" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDCNkUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR8VKEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR8VKUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR8VKkf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE_8dUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR8VK0f0Eey4EKcRe9k_ow" name="Map">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEXDQ0f0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR8VLEf0Eey4EKcRe9k_ow" comments="_RR7uEkf0Eey4EKcRe9k_ow" targetConnectionVisual="_RR7uE0f0Eey4EKcRe9k_ow" abstractOperation="true" name="getDataFile">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDCNkkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_RR8VLUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR8VLkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR8VL0f0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFAjgEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR8VMEf0Eey4EKcRe9k_ow" name="File">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEV1IEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR8VMUf0Eey4EKcRe9k_ow" comments="_RR7uFEf0Eey4EKcRe9k_ow" targetConnectionVisual="_RR8VIEf0Eey4EKcRe9k_ow" abstractOperation="true" name="getSeparator">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0oEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_RR8VMkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR8VM0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR8VNEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0oUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR8VNUf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR8VNkf0Eey4EKcRe9k_ow" comments="_RR8VIUf0Eey4EKcRe9k_ow" targetConnectionVisual="_RR8VIkf0Eey4EKcRe9k_ow" abstractOperation="true" name="getColumnNames">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0okf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR8VN0f0Eey4EKcRe9k_ow" name="Array">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0pUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR8VOEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR8VOUf0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RR8VOkf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0o0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR8VO0f0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RR_YcEf0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager" associationsOut="_RR9jQUf0Eey4EKcRe9k_ow" generalizations="_RR9jQEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0pkf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_RR_YcUf0Eey4EKcRe9k_ow" position="-168.0,259.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RR_Yckf0Eey4EKcRe9k_ow" label="+"/>
+    <attributes xmi:id="_RR_Yc0f0Eey4EKcRe9k_ow" name="alias">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFS3YEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_YdEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFS3YUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_YdUf0Eey4EKcRe9k_ow" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFTecEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_Ydkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Yd0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_RR_YeEf0Eey4EKcRe9k_ow" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RR_YeUf0Eey4EKcRe9k_ow" name="file">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFUskEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_eEmDoEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_eEmDoUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_eEmDokh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_RR_Ye0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_RR_YfEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_RR_YfUf0Eey4EKcRe9k_ow" name="File">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEV1IEf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RR_Yfkf0Eey4EKcRe9k_ow" name="path">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH90f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_Yf0f0Eey4EKcRe9k_ow" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH-Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_YgEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH-Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_YgUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Ygkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_RR_Yg0f0Eey4EKcRe9k_ow" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RR_YhEf0Eey4EKcRe9k_ow" name="separator">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH-kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_YhUf0Eey4EKcRe9k_ow" name="MultiDeclaration">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFivAEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_Yhkf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFivAUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_Yh0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_YiEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_RR_YiUf0Eey4EKcRe9k_ow" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RR_Yikf0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDDbsEf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_RR_Yi0f0Eey4EKcRe9k_ow" keyword="create"/>
+      <stereotypes xmi:id="_RR_YjEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDECwkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_YjUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Yjkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_Yj0f0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDECw0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_YkEf0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0pkf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR_YkUf0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDECxEf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_RR_Ykkf0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_RR_Yk0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_YlEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_YlUf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDEp00f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_Ylkf0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0pkf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RR_Yl0f0Eey4EKcRe9k_ow" name="alias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDECxUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_YmEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_YmUf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RR_Ymkf0Eey4EKcRe9k_ow" name="path">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDECxkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_Ym0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_YnEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RR_YnUf0Eey4EKcRe9k_ow" name="separator">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDEp0Ef0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_Ynkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_Yn0f0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RR_YoEf0Eey4EKcRe9k_ow" name="getFieldPositions">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDFQ4Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_YoUf0Eey4EKcRe9k_ow" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDFQ4Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_Yokf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDFQ4kf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_Yo0f0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDF38Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_YpEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_YpUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_Ypkf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKmEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_Yp0f0Eey4EKcRe9k_ow" name="Map">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEXDQ0f0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR_YqEf0Eey4EKcRe9k_ow" name="getDataFile">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDF38kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_YqUf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDF380f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_Yqkf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDF39Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_Yq0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_YrEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_YrUf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKmUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_Yrkf0Eey4EKcRe9k_ow" name="File">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEV1IEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR_Yr0f0Eey4EKcRe9k_ow" name="getSeparator">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDF39kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_YsEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfAUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_YsUf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfAkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_Yskf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Ys0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_YtEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfAEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_YtUf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR_Ytkf0Eey4EKcRe9k_ow" name="getColumnNames">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfBEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_RR_Yt0f0Eey4EKcRe9k_ow" name="Array">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfB0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_YuEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfCEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RR_YuUf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGEEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_RR_Yukf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Yu0f0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RR_YvEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDGfBUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_YvUf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR_Yvkf0Eey4EKcRe9k_ow" name="getPath">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGEkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_RR_Yv0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_YwEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_YwUf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGE0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_Ywkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RR_Yw0f0Eey4EKcRe9k_ow" name="setPath">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGFEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_RR_YxEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_YxUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RR_Yxkf0Eey4EKcRe9k_ow" name="path">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGFUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_Yx0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_YyEf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RR_YyUf0Eey4EKcRe9k_ow" name="setSeparator">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGFkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_RR_Yykf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Yy0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RR_YzEf0Eey4EKcRe9k_ow" name="separator">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDHGF0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_YzUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_Yzkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RR_Yz0f0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKkUf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_RR_Y0Ef0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_RR_Y0Uf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_RR_Y0kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RR_Y00f0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKl0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_RR_Y1Ef0Eey4EKcRe9k_ow" name="NaiveFileMetadataManager">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDC0pkf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RR_Y1Uf0Eey4EKcRe9k_ow" name="alias">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKkkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_Y1kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_Y10f0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RR_Y2Ef0Eey4EKcRe9k_ow" name="file">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKk0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_Y2Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_Y2kf0Eey4EKcRe9k_ow" name="File">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEV1IEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RR_Y20f0Eey4EKcRe9k_ow" name="separator">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFBKlEf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_RR_Y3Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_RR_Y3Uf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

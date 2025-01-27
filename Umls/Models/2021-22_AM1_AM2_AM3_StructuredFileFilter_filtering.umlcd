@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_PJ7fwEf0Eey4EKcRe9k_ow">
+  <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBxpUEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R_KAcEf0Eey4EKcRe9k_ow" source="_R_KAeUf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFvjUUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_R_NDwEf0Eey4EKcRe9k_ow" position="90.0,90.0"/>
+    <stereotypes xmi:id="_R_KAcUf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFvjU0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R_KAckf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_R_KAc0f0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFvjUkf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_R_KAdEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_KAdUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R_KAdkf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="fileToFilter" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRCMEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_R_KAd0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_R_KAeEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R_L1oUf0Eey4EKcRe9k_ow" targetItem="_R_MctEf0Eey4EKcRe9k_ow" sourceItem="_R_L1oEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_R_L1okf0Eey4EKcRe9k_ow" sourceAnchor="377.0,0.0" targetAnchor="360.0,108.0" dashed="true" superClass="_R_MctEf0Eey4EKcRe9k_ow" subClass="_R_KAeUf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PElswUf0Eey4EKcRe9k_ow"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R_McsUf0Eey4EKcRe9k_ow" targetItem="_R_Mct0f0Eey4EKcRe9k_ow" sourceItem="_R_McsEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R_Mcs0f0Eey4EKcRe9k_ow" targetItem="_R_McvUf0Eey4EKcRe9k_ow" sourceItem="_R_Mcskf0Eey4EKcRe9k_ow"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R_L1oEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_R_L1oUf0Eey4EKcRe9k_ow" text="Provides objects that apply filters over a registered data file.&#xD;&#xA;&#xD;&#xA;@author pvassil&#xD;&#xA; *" item="_R_MctEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFhg4Uf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R_McsEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_R_McsUf0Eey4EKcRe9k_ow" text="Returns the result of applying a filter to a filter; requires the&#xD;&#xA;&#x9; * setupFilteringEngine to have fired before such that the FilteringEngine has&#xD;&#xA;&#x9; * been equipped with the appropriate context values.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return a List of String Arrays -- each of the arrays represents a record in&#xD;&#xA;&#x9; *         the file, and each element of the array is a String representation of&#xD;&#xA;&#x9; *         the respective column of the record&#xD;&#xA;&#x9; * @see metadata.MetadataManagerInterface.setupFilteringEngine" item="_R_Mct0f0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH8Uf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R_Mcskf0Eey4EKcRe9k_ow" sourceConnectionVisual="_R_Mcs0f0Eey4EKcRe9k_ow" text="Organizes the Filtering Engine with the appropriate context information, such&#xD;&#xA;&#x9; * that it can later execute the filter over the respective file. The method has&#xD;&#xA;&#x9; * two arguments standing for the filter and the file being filtered. The&#xD;&#xA;&#x9; * invocation of the method can also be part of the constructor of a class&#xD;&#xA;&#x9; * implementing FilteringEngineInterface.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param pAtomicFilters   a Map&lt;String, List&lt;String>>, with the name of a field&#xD;&#xA;&#x9; *                         as key, and a list of acceptable values as the value&#xD;&#xA;&#x9; * @param pMetadataManager a MetadataManager practically representing the file&#xD;&#xA;&#x9; *                         being filtered&#xD;&#xA;&#x9; * @return 0 if the filtering engine is set up correctly, -1 otherwise" item="_R_McvUf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFiH8Ef0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_R_KAeUf0Eey4EKcRe9k_ow" name="FilteringEngine" associationsOut="_R_KAcEf0Eey4EKcRe9k_ow" generalizations="_R_L1okf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC98IEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_R_KAekf0Eey4EKcRe9k_ow" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_R_KAe0f0Eey4EKcRe9k_ow" label="+"/>
+    <attributes xmi:id="_R_KAfEf0Eey4EKcRe9k_ow" name="fileToFilter">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRCMEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAfUf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRCMUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAfkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_R_KAf0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_R_KAgEf0Eey4EKcRe9k_ow" name="File">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEV1IEf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R_KAgUf0Eey4EKcRe9k_ow" name="fileSeparator">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRCMkf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAgkf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRpQEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAg0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_R_KAhEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_R_KAhUf0Eey4EKcRe9k_ow" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R_KAhkf0Eey4EKcRe9k_ow" name="columnNames">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRpQUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAh0f0Eey4EKcRe9k_ow" name="Array">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRpQ0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R_KAiEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRpREf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAiUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_R_KAikf0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_R_KAi0f0Eey4EKcRe9k_ow" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R_KAjEf0Eey4EKcRe9k_ow" name="fieldPositions">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFRpRUf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAjUf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFSQUEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAjkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_R_KAj0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_R_KAkEf0Eey4EKcRe9k_ow" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R_KAkUf0Eey4EKcRe9k_ow" name="fieldsToBeFiltered">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFSQUkf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAkkf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFSQU0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAk0f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_R_KAlEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_R_KAlUf0Eey4EKcRe9k_ow" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_R_KAlkf0Eey4EKcRe9k_ow" name="FilteringEngine">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC-jMEf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_R_KAl0f0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_R_KAmEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_KAmUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R_KAmkf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC-jM0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_R_KAm0f0Eey4EKcRe9k_ow" name="FilteringEngine">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC98IEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R_KAnEf0Eey4EKcRe9k_ow" name="workWithFile">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC-jNEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAnUf0Eey4EKcRe9k_ow" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC_KQEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R_KAnkf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC_KQUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R_KAn0f0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC_KQkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAoEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_KAoUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R_KAokf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-uVEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_R_KAo0f0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R_KApEf0Eey4EKcRe9k_ow" name="FilteringEngine">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE9gMUf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_R_KApUf0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_R_KApkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_KAp0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R_KAqEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-HQkf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_R_KAqUf0Eey4EKcRe9k_ow" name="FilteringEngine">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PC98IEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R_KAqkf0Eey4EKcRe9k_ow" name="pAtomicFilters">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE9gMkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_R_KAq0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_R_KArEf0Eey4EKcRe9k_ow" name="Map">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEXDQ0f0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R_KArUf0Eey4EKcRe9k_ow" name="pMetadataManager">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE9gM0f0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_R_KArkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_R_KAr0f0Eey4EKcRe9k_ow" name="MetadataManagerInterface">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDBmgEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R_KAsEf0Eey4EKcRe9k_ow" name="setupFilteringEngine">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-HREf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_KAsUf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-uUEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R_KAskf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-uUkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_KAs0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_KAtEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R_KAtUf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-HR0f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_R_KAtkf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R_KAt0f0Eey4EKcRe9k_ow" name="pAtomicFilters">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-HRUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_R_KAuEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_R_KAuUf0Eey4EKcRe9k_ow" name="Map">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEXDQ0f0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R_KAukf0Eey4EKcRe9k_ow" name="pMetadataManager">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE-HRkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_R_KAu0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_R_KAvEf0Eey4EKcRe9k_ow" name="MetadataManagerInterface">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDBmgEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_R_MctEf0Eey4EKcRe9k_ow" comments="_R_L1oEf0Eey4EKcRe9k_ow" targetConnectionVisual="_R_L1oUf0Eey4EKcRe9k_ow" name="FilteringEngineInterface" subclassedBy="_R_L1okf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDAYYEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_R_MctUf0Eey4EKcRe9k_ow" position="67.0,-113.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_R_Mctkf0Eey4EKcRe9k_ow" label="+"/>
+    <operations xmi:id="_R_Mct0f0Eey4EKcRe9k_ow" comments="_R_McsEf0Eey4EKcRe9k_ow" targetConnectionVisual="_R_McsUf0Eey4EKcRe9k_ow" name="workWithFile">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDA_cEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_R_McuEf0Eey4EKcRe9k_ow" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDA_cUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_R_McuUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_Mcukf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R_Mcu0f0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE_8dEf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_R_McvEf0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R_McvUf0Eey4EKcRe9k_ow" comments="_R_Mcskf0Eey4EKcRe9k_ow" targetConnectionVisual="_R_Mcs0f0Eey4EKcRe9k_ow" name="setupFilteringEngine">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE_VYEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_R_Mcvkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_R_Mcv0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R_McwEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE_8ckf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_R_McwUf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R_Mcwkf0Eey4EKcRe9k_ow" name="pAtomicFilters">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE_8cEf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_R_Mcw0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_R_McxEf0Eey4EKcRe9k_ow" name="Map">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEXDQ0f0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R_McxUf0Eey4EKcRe9k_ow" name="pMetadataManager">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PE_8cUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_R_Mcxkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_R_Mcx0f0Eey4EKcRe9k_ow" name="MetadataManagerInterface">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PDBmgEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

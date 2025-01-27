@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_PH9J0Ef0Eey4EKcRe9k_ow">
+  <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_O7jskEf0Eey4EKcRe9k_ow"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNWAIEf0Eey4EKcRe9k_ow" name="application">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBfVcEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNWAIUf0Eey4EKcRe9k_ow" position="50.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNa4oEf0Eey4EKcRe9k_ow" name="java">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBfVckf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNa4oUf0Eey4EKcRe9k_ow" position="223.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNa4okf0Eey4EKcRe9k_ow" name="org">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBf8gEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNa4o0f0Eey4EKcRe9k_ow" position="-106.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNbfsEf0Eey4EKcRe9k_ow" name="javax">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBiYwUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNbfsUf0Eey4EKcRe9k_ow" position="-256.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNbfskf0Eey4EKcRe9k_ow" name="file">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBlcEUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNbfs0f0Eey4EKcRe9k_ow" position="388.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNcGwEf0Eey4EKcRe9k_ow" name="metadata">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBsJwUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNcGwUf0Eey4EKcRe9k_ow" position="-410.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_PNcGwkf0Eey4EKcRe9k_ow" name="filtering">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBxpUEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_PNcGw0f0Eey4EKcRe9k_ow" position="553.0,122.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
