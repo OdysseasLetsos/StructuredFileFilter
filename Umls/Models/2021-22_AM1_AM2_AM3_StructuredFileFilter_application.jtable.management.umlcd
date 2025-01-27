@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_PIpGUEf0Eey4EKcRe9k_ow">
+  <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PBkN8Ef0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_P3-RgUf0Eey4EKcRe9k_ow" targetItem="_P3_fqEf0Eey4EKcRe9k_ow" sourceItem="_P3-RgEf0Eey4EKcRe9k_ow"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P3-4kEf0Eey4EKcRe9k_ow" source="_P3_fqEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnAcUf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_P4EYIEf0Eey4EKcRe9k_ow" position="90.0,90.0"/>
+    <stereotypes xmi:id="_P3_foEf0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnAc0f0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P3_foUf0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_P3_fokf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnAckf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_P3_fo0f0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P3_fpEf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P3_fpUf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="table" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFH4Qkf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PKbxcEh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFH4Q0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P3_fpkf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P3_fp0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P4AtwEf0Eey4EKcRe9k_ow" source="_P4Ci8Ef0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnAdEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_P4EYIUf0Eey4EKcRe9k_ow" position="110.0,110.0"/>
+    <stereotypes xmi:id="_P4B740f0Eey4EKcRe9k_ow" name="Reference">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnngEf0Eey4EKcRe9k_ow"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P4B74Ef0Eey4EKcRe9k_ow" text=""/>
+    <sourceRole xmi:id="_P4B74Uf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFnAdUf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_P4B75Uf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P4B75Ef0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P4B74kf0Eey4EKcRe9k_ow" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFIfVEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PKcYgEh1Eeykh6jftAglzA" name="Generics">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFIfVUf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PKcYgUh1Eeykh6jftAglzA" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFJGYEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P4B750f0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P4B75kf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_P3-RgEf0Eey4EKcRe9k_ow" sourceConnectionVisual="_P3-RgUf0Eey4EKcRe9k_ow" text="Shamelessly stolen from&#xD;&#xA;https://stackoverflow.com/questions/22864095/reading-data-from-a-specific-csv-file-and-displaying-it-in-a-jtable&#xD;&#xA;&#xD;&#xA;TODO Check out again&#xD;&#xA;https://docs.oracle.com/javase/tutorial/uiswing/components/table.html" item="_P3_fqEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFfrsEf0Eey4EKcRe9k_ow"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P3_fqEf0Eey4EKcRe9k_ow" comments="_P3-RgEf0Eey4EKcRe9k_ow" targetConnectionVisual="_P3-RgUf0Eey4EKcRe9k_ow" name="JTableViewer" associationsOut="_P3-4kEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCk6kEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_P3_fqUf0Eey4EKcRe9k_ow" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_P3_fqkf0Eey4EKcRe9k_ow" label="+"/>
+    <attributes xmi:id="_P3_fq0f0Eey4EKcRe9k_ow" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFH4QEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_P3_frEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P3_frUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_P3_frkf0Eey4EKcRe9k_ow" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P3_fr0f0Eey4EKcRe9k_ow" name="table">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFH4Qkf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PKgp8Eh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PKhRAEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PKjGMEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_P3_fsUf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P3_fskf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_P3_fs0f0Eey4EKcRe9k_ow" name="JTable">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PETY40f0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_P3_ftEf0Eey4EKcRe9k_ow" name="createAndShowJTable">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PClhoEf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_P3_ftUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P3_ftkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_P3_ft0f0Eey4EKcRe9k_ow" name="JTableViewer">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PExS8Ef0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_P3_fuEf0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_P3_fuUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P3_fukf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P3_fu0f0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PExS9Uf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_P3_fvEf0Eey4EKcRe9k_ow" name="JTableViewer">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCk6kEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P3_fvUf0Eey4EKcRe9k_ow" name="pData">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PExS8Uf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P3_fvkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_P3_fv0f0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P3_fwEf0Eey4EKcRe9k_ow" name="pColumnNames">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PExS8kf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P3_fwUf0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_P3_fwkf0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P4Ci8Ef0Eey4EKcRe9k_ow" name="TableModel" associationsOut="_P4AtwEf0Eey4EKcRe9k_ow">
+    <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCmIsEf0Eey4EKcRe9k_ow"/>
+    <visualProperties xmi:id="_P4Ci8Uf0Eey4EKcRe9k_ow" position="-572.0,-42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_P4Ci8kf0Eey4EKcRe9k_ow" label="+"/>
+    <attributes xmi:id="_P4Ci80f0Eey4EKcRe9k_ow" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFH4REf0Eey4EKcRe9k_ow"/>
+      <visibility xmi:id="_P4Ci9Ef0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P4Ci9Uf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_P4Ci9kf0Eey4EKcRe9k_ow" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P4Ci90f0Eey4EKcRe9k_ow" name="columnNames">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFIfUEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_P4Ci-Ef0Eey4EKcRe9k_ow" name="Array">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFIfUkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P4Ci-Uf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFIfU0f0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P4Ci-kf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P4Ci-0f0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_P4Ci_Ef0Eey4EKcRe9k_ow" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P4Ci_Uf0Eey4EKcRe9k_ow" name="data">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PFIfVEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_PKhRAUh1Eeykh6jftAglzA" name="Generics"/>
+      <stereotypes xmi:id="_PKh4EEh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PKifIEh1Eeykh6jftAglzA" name="Generics"/>
+      <stereotypes xmi:id="_PKifIUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PKjtQEh1Eeykh6jftAglzA" name="Generics"/>
+      <stereotypes xmi:id="_PKjtQUh1Eeykh6jftAglzA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_P4CjAEf0Eey4EKcRe9k_ow" label="-"/>
+      <cardinality xmi:id="_P4CjAUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <type xmi:id="_P4CjAkf0Eey4EKcRe9k_ow" name="List">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_P4CjA0f0Eey4EKcRe9k_ow" name="getColumnCount">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCmvwEf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_P4CjBEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCmvwkf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P4CjBUf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW0Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P4CjBkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P4CjB0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P4CjCEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCmvwUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_P4CjCUf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P4CjCkf0Eey4EKcRe9k_ow" name="getRowCount">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW0kf0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_P4CjC0f0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW1Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P4CjDEf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW1Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P4CjDUf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P4CjDkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P4CjD0f0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW00f0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_P4CjEEf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P4CjEUf0Eey4EKcRe9k_ow" name="getColumnName">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW10f0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_P4CjEkf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCn94Uf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P4CjE0f0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCn94kf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P4CjFEf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P4CjFUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P4CjFkf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCn94Ef0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_P4CjF0f0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P4CjGEf0Eey4EKcRe9k_ow" name="col">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCnW2Ef0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P4CjGUf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_P4CjGkf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P4CjG0f0Eey4EKcRe9k_ow" name="getValueAt">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCn95Ef0Eey4EKcRe9k_ow"/>
+      <stereotypes xmi:id="_P4CjHEf0Eey4EKcRe9k_ow" name="LegacyStyledElement">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCok8Ef0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P4CjHUf0Eey4EKcRe9k_ow" name="Annotations">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCpMAEf0Eey4EKcRe9k_ow"/>
+      </stereotypes>
+      <visibility xmi:id="_P4CjHkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P4CjH0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P4CjIEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEzIJkf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_P4CjIUf0Eey4EKcRe9k_ow" name="Object">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEzIJEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P4CjIkf0Eey4EKcRe9k_ow" name="row">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCn95Uf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P4CjI0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_P4CjJEf0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P4CjJUf0Eey4EKcRe9k_ow" name="col">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCn95kf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P4CjJkf0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_P4CjJ0f0Eey4EKcRe9k_ow" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P4CjKEf0Eey4EKcRe9k_ow" name="TableModel">
+      <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEyhEEf0Eey4EKcRe9k_ow"/>
+      <keywords xmi:id="_P4CjKUf0Eey4EKcRe9k_ow" keyword="create"/>
+      <visibility xmi:id="_P4CjKkf0Eey4EKcRe9k_ow" label="+"/>
+      <cardinality xmi:id="_P4CjK0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P4CjLEf0Eey4EKcRe9k_ow">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEyhFUf0Eey4EKcRe9k_ow"/>
+        <type xmi:id="_P4CjLUf0Eey4EKcRe9k_ow" name="TableModel">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PCmIsEf0Eey4EKcRe9k_ow"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P4CjLkf0Eey4EKcRe9k_ow" name="pData">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEyhEUf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P4CjL0f0Eey4EKcRe9k_ow" label="1" max="1" min="1"/>
+        <type xmi:id="_P4CjMEf0Eey4EKcRe9k_ow" name="List">
+          <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEMEIUf0Eey4EKcRe9k_ow"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P4CjMUf0Eey4EKcRe9k_ow" name="pColumnNames">
+        <modelElement href="2021-22_AM1_AM2_AM3_StructuredFileFilter.uml#_PEyhEkf0Eey4EKcRe9k_ow"/>
+        <cardinality xmi:id="_P4CjMkf0Eey4EKcRe9k_ow" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_P4CjM0f0Eey4EKcRe9k_ow" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
