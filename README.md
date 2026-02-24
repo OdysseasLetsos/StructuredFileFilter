@@ -1,2 +1,2 @@
 # StructuredFileFilter
-Εφαρμογή Φίλτρων και Οπτικοποίηση Δεδομένων από Δομημένα Αρχεία (StructuredFileFilter)
+Applying Filters and Visualizing Data from Structured Files (StructuredFileFilter)
